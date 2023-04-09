@@ -24,10 +24,12 @@ button{
     display: flex;
     gap: 33px;
     font-family: 'Sarala', sans-serif;
+    flex-wrap: wrap;
 }
 .conteudo{
     border-top: solid 1px silver;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .conteudo-p{
     display: flex;
@@ -35,6 +37,7 @@ button{
     align-content: center;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .conteudo-p-escrito{
     display: flex;
@@ -78,4 +81,8 @@ button{
     display: flex;
     align-items: center; 
     gap: 4px;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
 }
