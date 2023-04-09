@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+    <link rel="stylesheet" href="lp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@700&display=swap" rel="stylesheet">
+    <script src="js.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <img style="width: 60px;" src="melquiplay.png">
+        <nav class="header-menu">
+            <div class="redes"> <a href="https://www.instagram.com/melquiplay/" class="redeslink"> <img class="redes-image" src="redes/instagram.png"> instagram</a></div>
+            <div class="redes"> <a href="https://www.youtube.com/c/melquiplay" class="redeslink"> <img class="redes-image" src="redes/youtube.png">Youtube</a></div>
+            <div class="redes"> <a href="https://www.facebook.com/MelquiTech/" class="redeslink"> <img class="redes-image" src="redes/facebook.png">Facebook</a></div>
+            <div class="redes"> <a href="https://www.linkedin.com/in/melquizedeque-souza-santos-a665b8223/" class="redeslink"><img class="redes-image" src="redes/linkedin.png">Linkdin</a></div>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-p">
+            <div class="conteudo-p-escrito">
+            <h1 class="n-principal">MelquiPlay</h1>
+            <h2 class="desc">Canal de Tecnologia</h2>
+            <a href="https://www.youtube.com/c/melquiplay"><button >INSCREVA-SE</button></a>
+            </div>
+            <img style="width: 350px;" src="melqui.png">
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Alguns dos Principais Videos</h3>
+            <a href="https://www.youtube.com/watch?v=rXGj1xJcXJg&t=16s&ab_channel=MelquiPlay">Como usar o controle do Xbox one S no celular Android</a>
+
+            <a href="https://www.youtube.com/watch?v=vr38JfZD01w&t=9s&ab_channel=MelquiPlay">Como conectar o controle de Xbox one S ou Gamepad na TV</a>
+
+            <a href="https://youtu.be/gQ_Pn9DOWCA">Top 5, Jogos de Android compatíveis com Joystik (Gamepad ou Controle de Xbox one S)</a>
+            
+            <a href="https://www.youtube.com/watch?v=JgRDg2uxKFY&t=608s&ab_channel=MelquiPlay">Como configurar dois monitores no PC, (VIDEO ATUALIZADO)</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <img id="rodape-image" src="endereco.png">
+    </footer>
+
+    <script>
+
+        function nome2(){
+            setInterval(function(){
+            document.getElementById('rodape-image').src = "endereco2.png";
+            setTimeout(function(){
+                document.getElementById('rodape-image').src = "endereco3.png";
+            }, 1000);
+            setTimeout(function(){
+                document.getElementById('rodape-image').src = "endereco.png";
+            }, 2000);
+            }, 3000)
+        }
+        nome2()
+
+    </script>
+
+</body>
+</html>
